@@ -42,11 +42,12 @@
 <body class="font-sora">
     <!-- header section  -->
     <header>
+
         <!-- nav section -->
          <section class="container mx-auto">
             <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
+                <div class="navbar-start ">
+                  <div class="dropdown start ">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -61,6 +62,8 @@
                           d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
                     </div>
+
+                    
                     <ul
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
@@ -70,8 +73,13 @@
                     
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl"><img src="c2-assets/logo-header.png" alt=""></a>
+                 
+                  <div> <a class="btn btn-ghost text-xl">
+                  <img class="hidden lg:block" src="c2-assets/logo-header.png" alt="">
+                  <img class="lg:hidden" src="c2-assets/Group.png" alt="">
+                </a></div>
                 </div>
+
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
                     <li><a class="font-bold text-gray-500">Product </a></li>
@@ -83,7 +91,7 @@
                 
                 <!-- button  -->
                  
-                <div class="navbar-end gap-6">
+                <div class="navbar-end hidden lg:flex gap-6">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
                     <!-- login button  -->
@@ -184,26 +192,27 @@
          <div>
             <div class="container mx-auto mb-10"><h2 class="text-5xl font-bold text-nature-primary ">Popular Products</h2></div>
             <div class="lg:flex gap-5 container mx-auto">
-                  <!-- off section  -->
-                  <div class="flex flex-1 flex-col rounded-lg pt-20 pl-14 bg-gradient-to-br from-green-500 to-white">
-                   <div>
-                     <h2 class="text-white font-bold text-3xl">30% Off</h2><br>
-                     <p>Discover a world of treats, toys, <br> and essentials handicap for </p><br>
-                     <button class="bg-white font-bold p-3 rounded-lg">Buy Now</button>
-                     
-                   </div>
-                   <div class="justify-items-end align-bottom">
-                    <img 
-                     src="c2-assets/vegetable-offer.png"
-                     alt="vegetable offer " />
-                   </div>
-                  
-                 </div>
+               
                 <!-- off product section  -->
-                 <div class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-2">
+                 <div class="grid lg:grid-cols-5 grid-cols-2 gap-2 ">
+                     <!-- off section  -->
+                     <div class="lg:row-span-3 col-span-2 lg:col-span-2 justify-end flex flex-1 flex-col rounded-lg pt-3 pl-14 bg-gradient-to-br from-green-500 to-white">
+                      <div>
+                        <h2 class="text-white font-bold text-3xl">30% Off</h2><br>
+                        <p>Discover a world of treats, toys, <br> and essentials handicap for </p><br>
+                        <button class="bg-white font-bold p-3 rounded-lg">Buy Now</button>
+                        
+                      </div>
+                      <div class="justify-items-end align-bottom">
+                       <img 
+                        src="c2-assets/vegetable-offer.png"
+                        alt="vegetable offer " />
+                      </div>
+                     
+                    </div>
                    <!-- offer product 1 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/tomato.png"
@@ -219,7 +228,7 @@
                      </div>
                    <!-- offer product 2 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/onion.png"
@@ -234,7 +243,7 @@
                      </div>
                    <!-- offer product 3 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/potato.png"
@@ -249,7 +258,7 @@
                      </div>
                    <!-- offer product 4 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/potato.png"
@@ -264,7 +273,7 @@
                      </div>
                    <!-- offer product 5 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/onion.png"
@@ -279,7 +288,7 @@
                      </div>
                    <!-- offer product 6 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/tomato.png"
@@ -294,7 +303,7 @@
                      </div>
                    <!-- offer product 7 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/potato.png"
@@ -309,7 +318,7 @@
                      </div>
                    <!-- offer product 8 -->
                    <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/onion.png"
@@ -323,8 +332,8 @@
                          </div>
                      </div>
                    <!-- offer product 9 -->
-                   <div>
-                       <div class="card card-side bg-base-100 rounded-xl p-6">
+                   <div class="hidden lg:block">
+                       <div class="card card-side bg-base-100 rounded-xl">
                            <figure>
                              <img
                                src="c2-assets/tomato.png"
@@ -448,7 +457,7 @@
 
           <!-- Grocery section  -->
              <section class="container mx-auto -mb-56 ">
-              <div class="card card-side p-10 bg-gray-200 shadow-xl">
+              <div class="flex flex-col lg:flex-row  card card-side p-10 bg-gray-200 shadow-xl">
                  <div>
                    <figure>
                     <img
@@ -538,9 +547,7 @@
             </div>
 
            </section>
-            
-
-          
+                      
     </footer>
     
 </body>
