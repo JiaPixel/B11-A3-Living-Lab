@@ -88,11 +88,11 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                     <!-- login button  -->
                     <div>
-                        <a class="btn">Login</a>
+                        <a class="btn border-black px-10">Login</a>
                       </div>
                       <!-- register button  -->
                       <div>
-                          <a class="btn">Register</a>
+                          <a class="btn bg-nature-primary text-white font-bold px-5">Register</a>
                         </div>
                 </div>
               </div>
@@ -103,9 +103,9 @@
             <div class="hero bg-base-200 min-h-screen">
                 <div class="hero-content text-center">
                   <div class="">
-                    <h1 class="text-5xl font-bold">Freshness You Can <br>
-                        Count On, Prices You’ll Love!</h1>
-                    <p class="py-6">
+                    <h1 class="text-5xl font-bold">Freshnes <span class="text-nature-primary"> You Can <br>
+                      Count</span> On, Prices You’ll Love!</h1>
+                    <p class="text-gray-500 py-6">
                         Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
                     </p>
                         <!-- image section  -->
@@ -125,8 +125,8 @@
     <!-- main section  -->
     <main>
         <!-- service section  -->
-         <section class="pt-20 pb-20">
-            <h2>Services</h2>
+         <section class="pt-20 pb-20 container mx-auto">
+            <h2 class="text-5xl font-bold text-nature-primary mb-10">Services</h2>
             <!-- card section  -->
              <div class="grid lg:grid-cols-3">
                 <!-- card1 -->
@@ -175,16 +175,16 @@
          </section>
          <!-- product section -->
 
-          <section class="pt-20 pb-20 bg-gray-400">
+          <section class="pt-20 pb-20 bg-gray-200">
          <div>
-            <h2>Popular Products</h2>
-            <div class="flex gap-5 pl-10 pr-10">
+            <div class="container mx-auto mb-10"><h2 class="text-5xl font-bold text-nature-primary ">Popular Products</h2></div>
+            <div class="lg:flex gap-5 container mx-auto">
                   <!-- off section  -->
-                  <div class="card bg-gradient-to-br from-green-500 to-white rounded-none">
+                  <div class="card rounded-lg bg-gradient-to-br from-green-500 to-white">
                    <div class="card-body">
                      <h2 class="card-title">30% Off</h2>
                      <p>Discover a world of treats, toys, and essentials handicap for </p>
-                     <button>Buy Now</button>
+                     <button class="bg-white font-bold p-3">Buy Now</button>
                    </div>
                    <figure>
                      <img
@@ -193,7 +193,7 @@
                    </figure>
                  </div>
                 <!-- off product section  -->
-                 <div class="grid grid-cols-3 grid-rows-3 gap-2">
+                 <div class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-2">
                    <!-- offer product 1 -->
                    <div>
                        <div class="card card-side bg-base-100 rounded-xl p-6">
@@ -346,36 +346,36 @@
          </div>
           </section>
           <!-- available and offer section  -->
-           <section>
-            <h2>Arrival & Offers</h2>
-          <div class="flex">
+           <section class="container mx-auto pt-20 pb-20">
+            <h2 class="mb-10 text-5xl font-bold text-nature-primary">Arrival & Offers</h2>
+          <div class="lg:flex lg:flex-1 gap-10">
             <!-- card -->
                <!-- dawat card  -->
-            <div class="card card-side bg-base-100 shadow-xl">
+            <div class="card card-side  bg-green-700 shadow-xl">
                 <div class="card-body">
                     <img src="c2-assets/dawat-logo.png" alt="">
                     
                     <div class="card-actions justify-end">
                       <button class="btn btn-primary">Cook Exotic Dishes</button>
                     </div>
-                    <p>UP to 20% OFF</p>
+                    <p class="text-white font-bold">UP to 20% OFF</p>
                   </div>
                 <figure>
                   <img
                     src="c2-assets/dawat-mock-up.png"
-                    alt="Movie" />
+                    alt="dawat" />
                 </figure>
                 
               </div>
              <!-- india gate card -->
-             <div class="card card-side bg-base-100 shadow-xl">
+             <div class="card card-side bg-blue-950 shadow-xl">
                 <div class="card-body">
                     <img src="c2-assets/india-gate-logo.png" alt="">
                     
                     <div class="card-actions justify-end">
                       <button class="btn btn-primary">World’s No.1 Rice</button>
                     </div>
-                    <p>UP to 40% OFF</p>
+                    <p class="text-white font-bold">UP to 40% OFF</p>
                   </div>
 
                 <figure>
@@ -388,18 +388,79 @@
           </div>
            </section>
            <!-- extra faq section  -->
-            <section></section>
+           <section class="container mx-auto my-24">
+            <div>
+              <h2 class="text-5xl font-bold gap-10 text-nature-primary mb-10">Frequently Asked Question</h2>
+              <div class="hero">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img
+                    src="c2-assets/faq.png"
+                    class="max-w-md rounded-lg shadow-2xl" />
+                  <div class="space-y-5">
+                    <div class="collapse collapse-arrow border border-blue-100">
+                      <input type="radio" name="my-accordion-2" checked="checked" />
+                      <div class="collapse-title text-xl font-medium">What are the most important things I should
+                        know about riding a bike?</div>
+                      <div class="collapse-content">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border border-blue-100">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                        new one?</div>
+                      <div class="collapse-content">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border border-blue-100">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                      <div class="collapse-content">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border border-blue-100 ">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                      <div class="collapse-content">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border border-blue-100">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                      <div class="collapse-content">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+
+
+
+          </section>
             <!-- Grocery section  -->
-             <section>
-                <div class="card card-side bg-base-100 shadow-xl">
-                    <figure>
+             <section class="container mx-auto">
+                <div class="card card-side p-10 bg-gray-200 -mb-20 shadow-xl">
+                   <div>
+                     <figure>
                       <img
                         src="c2-assets/vegetable-busket.png"
                         alt="Movie" />
                     </figure>
+                   </div>
                     <div class="card-body">
-                      <h2 class="card-title">Get Grocery News!</h2>
-                      <p>Exclusive training tips, ticks, product deals and more.</p>
+                      <h2 class="card-title font-bold text-4xl">Get Grocery News!</h2> <br>
+                      <p class="text-gray-500">Exclusive training tips, ticks, product deals and more.</p>
 
                       <label class="relative block">
                         
@@ -407,7 +468,7 @@
                       </label>
 
                       <div class="card-actions">                        
-                        <button class="btn btn-primary">Subscribe</button>
+                        <button class="btn btn-primary bg-nature-primary">Subscribe</button>
                       </div>
                     </div>
                   </div>
@@ -416,7 +477,7 @@
     </main>
     <!-- footer section  -->
     
-        <footer class="footer bg-base-300 text-base-content p-10">
+        <footer class="footer bg-nature-primary text-base-content p-10">
             <nav>
               <h6 class="footer-title">Services</h6>
               <a class="link link-hover">Branding</a>
